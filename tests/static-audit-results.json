@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-11",
+  "test_type": "local structure, source-byte matching, privacy-pattern and PDF metadata audit; not installation or model-quality evaluation",
+  "passed": 40,
+  "total": 40,
+  "checks": [
+    {
+      "check": "standard frontmatter keys",
+      "passed": true
+    },
+    {
+      "check": "exact Skill folder name",
+      "passed": true
+    },
+    {
+      "check": "current self-contained version",
+      "passed": true
+    },
+    {
+      "check": "instruction body below 500 lines",
+      "passed": true
+    },
+    {
+      "check": "original text UI metadata only",
+      "passed": true
+    },
+    {
+      "check": "implicit policy only",
+      "passed": true
+    },
+    {
+      "check": "no assumed tool dependencies",
+      "passed": true
+    },
+    {
+      "check": "self-contained source reads supported",
+      "passed": true
+    },
+    {
+      "check": "old resource metadata explicitly scoped",
+      "passed": true
+    },
+    {
+      "check": "three inline complete original items",
+      "passed": true
+    },
+    {
+      "check": "original PDF hash matches known source",
+      "passed": true
+    },
+    {
+      "check": "3.1 full inline item equals source",
+      "passed": true
+    },
+    {
+      "check": "3.1 inline hash matches known source",
+      "passed": true
+    },
+    {
+      "check": "3.1 all five fields preserved",
+      "passed": true
+    },
+    {
+      "check": "3.1 author grade unchanged",
+      "passed": true
+    },
+    {
+      "check": "4.1 full inline item equals source",
+      "passed": true
+    },
+    {
+      "check": "4.1 inline hash matches known source",
+      "passed": true
+    },
+    {
+      "check": "4.1 all five fields preserved",
+      "passed": true
+    },
+    {
+      "check": "4.1 author grade unchanged",
+      "passed": true
+    },
+    {
+      "check": "5.1 full inline item equals source",
+      "passed": true
+    },
+    {
+      "check": "5.1 inline hash matches known source",
+      "passed": true
+    },
+    {
+      "check": "5.1 all five fields preserved",
+      "passed": true
+    },
+    {
+      "check": "5.1 author grade unchanged",
+      "passed": true
+    },
+    {
+      "check": "CC BY and MIT explicitly separated",
+      "passed": true
+    },
+    {
+      "check": "full MIT included inline",
+      "passed": true
+    },
+    {
+      "check": "not a full-book Skill",
+      "passed": true
+    },
+    {
+      "check": "not full Taiwan book",
+      "passed": true
+    },
+    {
+      "check": "no private-path/account/credential patterns",
+      "passed": true
+    },
+    {
+      "check": "no symlinks",
+      "passed": true
+    },
+    {
+      "check": "no executables or unknown icon assets",
+      "passed": true
+    },
+    {
+      "check": "all relative markdown links resolve",
+      "passed": true
+    },
+    {
+      "check": "PDF page count 427",
+      "passed": true
+    },
+    {
+      "check": "PDF bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "no PDF embedded files",
+      "passed": true
+    },
+    {
+      "check": "no active PDF actions",
+      "passed": true
+    },
+    {
+      "check": "Skill ZIP CRC intact",
+      "passed": true
+    },
+    {
+      "check": "Skill ZIP names safe",
+      "passed": true
+    },
+    {
+      "check": "Skill ZIP content equals public Skill files",
+      "passed": true
+    },
+    {
+      "check": "main Skill unchanged from prepared self-contained source",
+      "passed": true
+    },
+    {
+      "check": "references and licenses unchanged",
+      "passed": true
+    }
+  ],
+  "private_pattern_hits": [],
+  "broken_relative_links": [],
+  "file_count": 21,
+  "limitations": "Bounded scan is not a security certification; actual installed behavior and cross-platform usability require separate verification."
+}

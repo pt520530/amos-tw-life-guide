@@ -1,0 +1,82 @@
+{
+  "package_title": "Amos 臺灣生活 AI 指南（大眾發行候選）",
+  "status": "local_public_release_candidate; not published",
+  "prepared_at": "2026-10-11",
+  "author": "eternity4719",
+  "work": "高性價比人生指南",
+  "official_repository": "https://github.com/eternity4719/HowToLiveBetter",
+  "pdf": {
+    "file_name": "高性價比人生指南-繁體中文轉製版-168VIP-AI-v1.0.pdf",
+    "adapter": "168VIP-AI",
+    "edition": "非官方繁體中文轉製 v1.0",
+    "converted_date": "2026-10-08",
+    "original_commit": "e73cb638b27f12a422546e5c09cadcac6fce03fe",
+    "original_snapshot_time": "2026-10-07 21:58 Asia/Shanghai",
+    "physical_pages": 427,
+    "printed_content_pages": 424,
+    "entries_as_printed_in_this_version": 670,
+    "sha256": "6a5b927364e92acf636fbeab91ff2b1c00e1475fbd04cd8a7ec015cdbf2b5050",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "taiwan_localization_status": "僅繁體轉製、重新排版與適用範圍註記；未完成臺灣制度逐條改寫與專業審查",
+    "endorsement": "原作者未審閱或背書",
+    "update_policy": "固定版本，不會隨官方網站自動更新"
+  },
+  "official_skill": {
+    "name": "life-decision-guide",
+    "source": "https://github.com/eternity4719/HowToLiveBetter/blob/main/skills/life-decision-guide/SKILL.md",
+    "read_date": "2026-10-11",
+    "source_ref": "main（動態分支，本包未宣稱固定 Skill 提交版本）",
+    "license": "MIT",
+    "license_url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/LICENSE-CODE",
+    "use_in_this_package": "參考工作流、另含獨立候選 Skill 0.2.1-candidate.1；非上游官方安裝版。",
+    "checked_commit": "70cc838c8791447eb455115c5a66da3d497dc3c4",
+    "checked_skill_blob_sha": "a9dd0376fd358d48522bbed7f483c1286a47e86c"
+  },
+  "package_version": "0.2.1",
+  "audience": "general public",
+  "candidate_skill": {
+    "name": "amos-tw-life-guide-candidate",
+    "version": "0.2.1-candidate.1",
+    "path": "skills/amos-tw-life-guide-candidate",
+    "standalone_zip": "downloads/amos-tw-life-guide-candidate-0.2.1-candidate.1.zip",
+    "included_complete_items": [
+      "3.1",
+      "4.1",
+      "5.1"
+    ],
+    "full_book_embedded": false,
+    "source_mode": "Full excerpts, attribution and MIT included in SKILL.md; auxiliary resources optional",
+    "auxiliary_manifest_note": "references/source-manifest.json preserves 0.2.0 preparation metadata; it is not the current install status",
+    "taiwan_localization_scope": "contextual advice and official-source checks; no full-book Taiwan localization",
+    "original_selfcontained_export_sha256": "26778fac70f3f0a61900cf0f8e062c79ba7a6cb60ad6e0bbafa6fea87ffc4c63",
+    "public_skill_zip_sha256": "a7d7cc1c2045294f8aa08b4efad274b3f0a467c56209af197681096a4cf34362",
+    "public_skill_main_sha256": "1efeb572be6b95af4127ce8768b1672ce2475d0cb4fdd2c202c221e066719408",
+    "public_packaging_changes": "UI metadata normalized to original text-only fields; optional generated graphics and product lists omitted. SKILL.md, references and licenses unchanged."
+  },
+  "validation": {
+    "public_package_installed_cross_platform": false,
+    "model_quality_tested_for_public_package": false,
+    "installed_selfcontained_main_file_verification": {
+      "date": "2026-10-11",
+      "version": "0.2.1-candidate.1",
+      "complete_inline_main_loaded": true,
+      "explicit_invocation_examples_passed": [
+        "LINE with important contacts",
+        "unused subscription vs used backup",
+        "15-minute quotation next step with research limits"
+      ],
+      "implicit_trigger_tested": false,
+      "ui_recording_tested": false,
+      "other_accounts_or_platforms_tested": false,
+      "supplementary_resource_issue_fixed": false,
+      "scope_note": "Only the necessary self-contained main file and explicit example use were verified; no general installation guarantee."
+    },
+    "auxiliary_resource_limitation": "Installed supplementary resource access remains limited; main file contains necessary text.",
+    "local_static_audit": {
+      "passed": 40,
+      "total": 40,
+      "results": "tests/static-audit-results.json"
+    }
+  }
+}

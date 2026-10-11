@@ -1,0 +1,6 @@
+interface:
+  display_name: Amos 臺灣生活指南候選
+  short_description: 先查三條已核原文，再整理臺灣生活工作小步驟；缺來源就停下
+  default_prompt: 請用 $amos-tw-life-guide-candidate 先核對可讀原文，幫我整理這個生活或工作問題的下一步。
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,73 @@
+{
+  "candidate_name": "amos-tw-life-guide-candidate",
+  "candidate_version": "0.2.0-candidate.1",
+  "candidate_created_date": "2026-10-11",
+  "status": "local_uninstalled_candidate_artifact",
+  "official_installation_validation": false,
+  "platform_new_chat_tested": false,
+  "author": "eternity4719",
+  "work": "高性價比人生指南",
+  "book_license": "CC BY 4.0",
+  "book_license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "upstream_skill_license": "MIT",
+  "upstream_skill_url": "https://github.com/eternity4719/HowToLiveBetter/blob/main/skills/life-decision-guide/SKILL.md",
+  "upstream_skill_read_date": "2026-10-11",
+  "upstream_skill_ref": "main (dynamic; commit not pinned)",
+  "source_pdf": {
+    "edition": "作者原版（簡體）",
+    "generated_at": "2026-10-07T21:58:46+08:00",
+    "physical_page_count": 418,
+    "printed_page_count": 415,
+    "entries_as_printed_in_this_pdf": 670,
+    "sha256": "fa2215450060677d221b994412926238e384ef999c164c7c6cc213bee5d79d7c",
+    "book_commit_short_on_cover": "e73cb63",
+    "book_commit_fixed_link": "e73cb638b27f12a422546e5c09cadcac6fce03fe",
+    "version_scope_note": "不將 2026-10-11 線上新版 677 條或繁體轉製版 427 頁套進本 PDF",
+    "pdf_embedded_in_skill": false
+  },
+  "included_complete_items": [
+    {
+      "id": "3.1",
+      "section": 3,
+      "item": 1,
+      "original_title": "关掉非必要通知，工作时把手机放到视线之外",
+      "author_evidence_grade": "B",
+      "pdf_physical_page": 58,
+      "pdf_printed_page": 55,
+      "fixed_source_url": "https://github.com/eternity4719/HowToLiveBetter/blob/e73cb638b27f12a422546e5c09cadcac6fce03fe/book/03-不要浪费精力.md",
+      "excerpt_sha256_utf8": "ab5d09a4fa0dde826d73687ceed7a5842086ff0b9f5efa832baf98536c658503",
+      "source_scope": "complete_item",
+      "limitations": "原書研究結果不能當成個人效果保證"
+    },
+    {
+      "id": "4.1",
+      "section": 4,
+      "item": 1,
+      "original_title": "把「打算做」写成「几点、在哪、遇到什么就做什么」",
+      "author_evidence_grade": "A",
+      "pdf_physical_page": 70,
+      "pdf_printed_page": 67,
+      "fixed_source_url": "https://github.com/eternity4719/HowToLiveBetter/blob/e73cb638b27f12a422546e5c09cadcac6fce03fe/book/04-不要浪费时间.md",
+      "excerpt_sha256_utf8": "149054f6c2c2bc063f70cd07bfe10f7dd57a63bffa724e331acb002694ca0e14",
+      "source_scope": "complete_item",
+      "limitations": "原書研究結果不能當成個人效果保證"
+    },
+    {
+      "id": "5.1",
+      "section": 5,
+      "item": 1,
+      "original_title": "关掉所有自动续费，改为到期手动续",
+      "author_evidence_grade": "C",
+      "pdf_physical_page": 77,
+      "pdf_printed_page": 74,
+      "fixed_source_url": "https://github.com/eternity4719/HowToLiveBetter/blob/e73cb638b27f12a422546e5c09cadcac6fce03fe/book/05-不要浪费钱.md",
+      "excerpt_sha256_utf8": "ed7d5bbfc2346b5db27917494db36ea02e48a04a455b565cbde61589593f04ff",
+      "source_scope": "complete_item",
+      "limitations": "原文中國大陸法規不可直接套用臺灣；常用服務可保留續費"
+    }
+  ],
+  "full_book_embedded": false,
+  "taiwan_localization_scope": "只作情境映射與當次官方規則核對；未完成全書臺灣制度改寫",
+  "source_policy": "read complete item in current conversation; unavailable => fail closed; not found != entire book absent",
+  "permissions": "read-only suggestions; no account setup, external action, publication, paid media, or new persistent access"
+}
